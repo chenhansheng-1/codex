@@ -1,0 +1,21 @@
+﻿# git-cliff 配置文件
+[changelog]
+header = "# Changelog\n\n所有重要变更都会记录在此文件中。\n"
+body = """
+{% for group, commits in commits | group_by(attribute="group") %}
+  ### {{ group | upper_first }}
+  {% for commit in commits %}
+    - {{ commit.message | upper_first }}{% if commit.breaking %} [破坏性变更]{% endif %}
+  {% endfor %}
+{% endfor %}
+"""
+footer = "---\n*本项目遵循 [Semantic Versioning](https://semver.org/)*\n"
+# 去除重复的提交信息
+trim = true
+
+[git]
+# 解析常规提交(Conventional Commits)
+conventional_commits = true
+filter_unconventional = true
+# 从最近的tag开始，如果没有tag则从第一个提交开始
+# 生成日志的范围

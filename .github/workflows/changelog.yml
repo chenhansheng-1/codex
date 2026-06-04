@@ -1,0 +1,32 @@
+﻿name: 自动更新 Changelog
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-changelog:
+    name: 更新 Changelog
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 生成 Changelog
+        uses: orhun/git-cliff-action@v4
+        id: git-cliff
+        with:
+          config: cliff.toml
+          args: -v
+        env:
+          OUTPUT: CHANGELOG.md
+
+      - name: 提交 Changelog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add CHANGELOG.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "docs: 更新 CHANGELOG.md"
+          git push
