@@ -1,0 +1,18 @@
+﻿# IDE
+.idea/
+*.iml
+
+# Dependencies
+node_modules/
+
+# Build
+target/
+*.jar
+*.war
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime
+hatch-run/

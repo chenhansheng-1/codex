@@ -1,0 +1,21 @@
+﻿-- 鎻掑叆鍒濆鍥句功鏁版嵁
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('鐧惧勾瀛ょ嫭', '鍔犺タ浜毬烽┈灏斿厠鏂?, '978-7-5442-5500-1', '鍗楁捣鍑虹増鍏徃', '2011', 12, '榄斿够鐜板疄涓讳箟缁忓吀涔嬩綔锛岃杩板竷鎭╄开浜氬鏃忎竷浠ｄ汉鐨勪紶濂囨晠浜?);
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('娲荤潃', '浣欏崕', '978-7-5063-6789-8', '浣滃鍑虹増绀?, '2012', 20, '璁茶堪涓€涓汉鍘嗙粡纾ㄩ毦浠嶅潥寮烘椿涓嬪幓鐨勬劅浜烘晠浜?);
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('涓変綋', '鍒樻厛娆?, '978-7-5366-9293-0', '閲嶅簡鍑虹増绀?, '2008', 25, '涓浗绉戝够鏂囧鐨勯噷绋嬬涔嬩綔锛岃杩板湴鐞冩枃鏄庝笌涓変綋鏂囨槑鐨勯娆′氦閿?);
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('绾㈡ゼ姊?, '鏇归洩鑺?, '978-7-0200-0220-7', '浜烘皯鏂囧鍑虹増绀?, '1996', 8, '涓浗鍙ゅ吀鍥涘ぇ鍚嶈憲涔嬮锛屼互璐惧簻鍏磋“涓鸿儗鏅殑鐖辨儏鎮插墽');
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('1984', '涔旀不路濂ュ▉灏?, '978-7-0105-6056-6', '鍖椾含鍗佹湀鏂囪壓鍑虹増绀?, '2010', 15, '鍙嶄箤鎵橀偊缁忓吀锛屾弿缁樻瀬鏉冪粺娌讳笅鐨勭獟鎭ぞ浼?);
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('鍥村煄', '閽遍挓涔?, '978-7-0200-2309-5', '浜烘皯鏂囧鍑虹増绀?, '1991', 10, '浠ョ妧鍒╁菇榛樼殑绗旇Е鎻忕粯鐭ヨ瘑鍒嗗瓙鐨勫濮讳笌浜虹敓鍥板');
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('灏忕帇瀛?, '瀹夋墭涓嚶峰痉路鍦ｅ焹鍏嬭嫃浣╅噷', '978-7-0200-4362-3', '浜烘皯鏂囧鍑虹増绀?, '2003', 18, '涓栫晫鏈€钁楀悕鐨勭璇濅箣涓€锛屽叧浜庣埍銆佽矗浠讳笌鐢熷懡鐨勫摬鎬?);
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('骞冲嚒鐨勪笘鐣?, '璺仴', '978-7-5302-1686-2', '鍖椾含鍗佹湀鏂囪壓鍑虹増绀?, '2012', 14, '鍏ㄦ櫙寮忓睍鐜颁腑鍥藉綋浠ｅ煄涔＄ぞ浼氱敓娲荤殑鐧句竾瀛楀法钁?);
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('鎸▉鐨勬．鏋?, '鏉戜笂鏄ユ爲', '978-7-5327-4536-8', '涓婃捣璇戞枃鍑虹増绀?, '2007', 9, '鏉戜笂鏄ユ爲浠ｈ〃浣滐紝鍏充簬闈掓槬銆佺埍鎯呬笌姝讳骸鐨勫噭缇庢晠浜?);
+INSERT INTO books (title, author, isbn, publisher, publish_year, stock, description) VALUES
+('鐧藉琛?, '涓滈噹鍦惥', '978-7-5442-4765-5', '鍗楁捣鍑虹増鍏徃', '2008', 16, '涓滈噹鍦惥宸呭嘲涔嬩綔锛岀粷鏈涚殑瀹堟姢涓庢渶娣辨矇鐨勭埍');
